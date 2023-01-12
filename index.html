@@ -25,14 +25,27 @@
     </nav>
     <div id="input">
       <div>
-        <label>Enter the value of A</label><br />
-        <input for="input1" />
+        <label for="value-a">Enter the value of A</label><br />
+        <input id="input-a" type="number" />
       </div>
       <div>
-        <label>Enter the value of B</label><br />
-        <input for="input2" />
+        <label for="value-b">Enter the value of B</label><br />
+        <input id="input-b" type="number" />
       </div>
     </div>
+
+    <div id="perform">
+      <button id="addbtn">ADD</button>
+      <button id="subbtn">SUB</button>
+      <button id="mulbtn">MUL</button>
+      <button id="divbtn">DIV</button>
+    </div>
+
+    <div id="text"></div>
+
+    <!-- <div id="result">
+      <button id="calc">Calculate</button>
+    </div> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -44,5 +57,6 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
