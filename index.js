@@ -5,4 +5,7 @@ function sub(a,b)
 {
     return a-b;
 }
-s
+function multiply(a,b)
+{
+    return a*b;
+}
